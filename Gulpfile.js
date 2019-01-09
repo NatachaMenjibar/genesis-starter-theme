@@ -79,14 +79,10 @@ toolkit.extendConfig(
 			js: './resources/js/'
 		},
 		server: {
-            proxy: 'https://genesis-starter.test',
+            proxy: 'http://genesis-starter.test',
 			host: 'genesis-starter.test',
 			open: 'external',
-            port: '8000',
-            https: {
-            	   'key': '/Users/seothemes/.valet/Certificates/genesis-starter.test.key',
-            	   'cert': '/Users/seothemes/.valet/Certificates/genesis-starter.test.crt'
-            }
+            port: '8000'
 		}
 	}
 );
