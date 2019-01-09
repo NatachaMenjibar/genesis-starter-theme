@@ -60,7 +60,7 @@ The Genesis Starter Theme aims to modernize, organize and enhance some aspects o
 Install the latest development version of the Genesis Starter Theme using Composer from your WordPress themes directory (replace `your-theme-name` below with the name of your theme):
 
 ```shell
-composer create-project seothemes/genesis-starter-theme your-theme-name dev-master && cd "$(\ls -1dt ./*/ | head -n 1)" && sh setup.sh
+composer create-project seothemes/genesis-starter-theme your-theme-name dev-master && cd "$(\ls -1dt ./*/ | head -n 1)" && bash setup.sh
 ```
 
 ### Individual commands:
@@ -80,7 +80,7 @@ cd your-theme-name
 Run the setup script to rename the theme, build the theme assets and kick-off BrowserSync:
 
 ```shell
-sh setup.sh
+bash setup.sh
 ```
 
 ## Setup
